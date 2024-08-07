@@ -55,9 +55,6 @@ void ofApp::keyPressed(int key){
     if (key == 'm') myObjectOS.coverIndex = ofWrap(myObjectOS.coverIndex + 1, 0, 4);
     if (key == 'n') myObjectOS.coverIndex = ofWrap(myObjectOS.coverIndex - 1, 0, 4);
     
-    if (key == 'm') myObjectOS.coverIndex = ofWrap(myObjectOS.coverIndex + 1, 0, 4);
-    if (key == 'n') myObjectOS.coverIndex = ofWrap(myObjectOS.coverIndex - 1, 0, 4);
-    
     if (key == '1') myObjectOS.setColorMono();
     if (key == '2') myObjectOS.setColorRGBTwo();
     if (key == '3') myObjectOS.setColorRGBWorld();
